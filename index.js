@@ -4,7 +4,7 @@ let countEl = document.getElementById("count-el");
 
 function increment() {
     count++;
-    countEl.innerText = count;
+    countEl.textContent = count;
 }
 
 function save(){
